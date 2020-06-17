@@ -151,7 +151,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .w4-button:focus, .button1:active {outline: none !important;box-shadow: none !important;}
 
 .w5-button {background-color: white;color: black;border: 2px solid black;border-radius: 25px;}
-.w5-button:hover{color:black!important;background-color:#008CBA!important}
+.w5-button:hover{color:black!important;background-color:#6eceff!important}
 .w5-button:active, .button:focus{border: 2px solid black;border-radius: 25px;}
 .w5-button:focus, .button1:active {outline: none !important;box-shadow: none !important;}
 
