@@ -144,14 +144,17 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .w3-left{float:left!important}.w3-right{float:right!important}
 .w3-button:hover{color:#000!important;background-color:#ccc!important}
 .button{border: none;border-radius: 25px;color: white;padding: 16px 32px;text-align: center;text-decoration: none;display: inline-block;font-size: 16px;margin: 4px 2px;transition-duration: 0.4s;cursor: pointer;}
+
 .w4-button {background-color: white;color: black;border: 2px solid black;border-radius: 25px;}
 .w4-button:hover{color:black!important;background-color:#008CBA!important}
 .w4-button:active, .button:focus{border: 2px solid black;border-radius: 25px;}
 .w4-button:focus, .button1:active {outline: none !important;box-shadow: none !important;}
+
 .w5-button {background-color: white;color: black;border: 2px solid black;border-radius: 25px;}
-.w5-button:hover {background-color: white;color: white;}
+.w5-button:hover{color:black!important;background-color:#008CBA!important}
 .w5-button:active, .button:focus{border: 2px solid black;border-radius: 25px;}
 .w5-button:focus, .button1:active {outline: none !important;box-shadow: none !important;}
+
 .w3-transparent,.w3-hover-none:hover{background-color:transparent!important}
 .w3-hover-none:hover{box-shadow:none!important}
 /* Colors */
