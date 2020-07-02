@@ -167,7 +167,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .dark-grey,.hover-dark-grey:hover,.w3-dark-gray,.w3-hover-dark-gray:hover{color:#fff!important;background-color:#616161!important}
 /*Text colours*/
 .text-green,.w3-hover-text-green:hover{color:#31D710!important}
-.text-white,.w3-hover-text-green:hover{color:#fff!important}
+.text-white,.text-white:hover { color: #31D710; }
 .text-black,.w3-hover-text-black:hover{color:#000!important}
 .text-grey,.w3-hover-text-grey:hover,.w3-text-gray,.w3-hover-text-gray:hover{color:#757575!important}
 .text-light-grey,.w3-hover-text-light-grey:hover,.w3-text-light-gray,.w3-hover-text-light-gray:hover{color:#f1f1f1!important}
