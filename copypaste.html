@@ -11,6 +11,22 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.bg {
+    position: fixed;
+    right: 10px;
+    z-index: -1;
+    background: #a39d9d;
+    border-radius: 5px;
+}
+
+.bg img {
+    margin-top: 5px; /*Use DIV as border*/
+    margin-bottom: 5px;
+    width: 500px; /*scale down the image*/
+    height: auto; /*keep aspect ratio*/
+    opacity: 0.9;
+}
+
 button {
     padding: 8px 15px;
     border-radius: 5px;
@@ -67,6 +83,10 @@ button:active {
 <div id="alert" class="hidden">
     <span id="alertMsg"></span>
     <button id="alertBtn">OK</button>
+</div>
+
+<div class="bg">
+    <img src="ResistorCodes.png" alt="Resistor Band Colour Codes">
 </div>
 
 <h1>Place to copy symbols for engineering and maths</h1>
