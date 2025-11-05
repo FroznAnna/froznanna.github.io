@@ -22,6 +22,12 @@
     "∫":"Maths",
     "∮":"Maths",
     "∑":"Maths",
+    "≈":"Maths",
+    "≠":"Maths",
+    "↓":"Maths",
+    "↑":"Maths",
+    "→":"Maths",
+    "←":"Maths",
 
     "\\":"Coding",
     "`":"Coding"
