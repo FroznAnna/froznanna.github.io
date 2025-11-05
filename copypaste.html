@@ -62,7 +62,6 @@ button:active {
     margin: 0 auto;
     padding: 5px 15px;
     background-color: #212d3a;
-    border: none;
     border-radius: 5px;
     color: white;
     cursor: pointer;
@@ -91,8 +90,9 @@ function copy(sym) {
     document.getElementById('alertMsg').textContent = `Symbol copied: ${sym}`;
     alertBox.classList.remove('hidden');
 
-    let alertOk = document.getElementById('alertBtn');
-    alertOk.onclick = () => {
+    let alertBtn = document.getElementById('alertBtn');
+    alertBtn.focus();
+    alertBtn.onclick = () => {
         alertBox.classList.add('hidden');
     }
 }
