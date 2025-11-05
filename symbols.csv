@@ -1,0 +1,35 @@
+symbol,label,category
+
+Ω,Ohm,Greek
+θ,Theta,Greek
+ω,Omega,Greek
+ϕ,Phi,Greek
+α,Alpha,Greek
+β,Beta,Greek
+γ,Gamma,Greek
+Δ,Delta,Greek
+ε,Epsilon,Greek
+δ,Delta,Greek
+σ,Sigma,Greek
+ρ,Rho,Greek
+μ,Mu,Greek
+∇,Nabla,Greek
+τ,Tau,Greek
+
+±,Plus Minus,Maths
+π,Pi,Maths
+|,Absolute value,Maths
+√,Square root,Maths
+∫,Integral,Maths
+∮,Contour Integral,Maths
+∑,Summation,Maths
+≈,Roughly equal to,Maths
+≠,Not equal to,Maths
+→,Limit,Maths
+∴,Therefore,Maths
+∞,Infinity,Maths
+⇔,Equivalent,Maths
+≡,Identity,Maths
+
+\,Backslash,Coding
+`,Backtick,Coding
