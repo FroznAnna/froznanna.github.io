@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>Symbols Copypaste</title>
+
+<style>
+h1 {
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #4C4E52;
+}
+
+p {
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #a9a9a9;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+button:active {
+    background-color: #C154C1;
+    transform: scale(0.95);
+}
+
+#alert {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    z-index: 1000;
+    text-align: center;
+    min-width: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#alert span {
+    display: block;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#alert button {
+    display: block;
+    margin: 0 auto;
+    padding: 5px 15px;
+    background-color: #212d3a;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+</style>
+
+</head>
+<body>
+
+<div id="alert" class="hidden">
+    <span id="alertMsg"></span>
+    <button id="alertBtn">OK</button>
+</div>
+
+<h1>Place to copy symbols for engineering and maths</h1>
+
+<script>
+function copy(sym) {
+    navigator.clipboard.writeText(sym);
+
+    let alertBox = document.getElementById('alert');
+    document.getElementById('alertMsg').textContent = `Symbol copied: ${sym}`;
+    alertBox.classList.remove('hidden');
+
+    let alertOk = document.getElementById('alertBtn');
+    alertOk.onclick = () => {
+        alertBox.classList.add('hidden');
+    }
+}
+</script>
+
+<script type="module">
+fetch('https://froznanna.github.io/symbols.json')
+    .then(response => response.json())
+    .then(symbols => {
+    Object.entries(symbols).forEach(([symbol, category]) => {
+    let categoryElement = document.getElementById(category);
+
+    if (!categoryElement) {
+        //Creates a p header with id and text of the category
+        let p = document.createElement('p');
+        p.id = category;
+        p.textContent = category;
+        document.body.appendChild(p);
+        categoryElement = p;
+    }
+
+    let button = document.createElement('button');
+    button.textContent = symbol;
+    button.addEventListener('click', () => copy(symbol));
+
+    categoryElement.insertAdjacentElement('afterend', button);
+    });
+});
+</script>
+
+</body>
+</html> 
