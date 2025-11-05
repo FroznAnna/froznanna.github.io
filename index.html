@@ -10,13 +10,15 @@ body {
   background-image: url('fbgl.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: 100% 100%;
+  background-size: cover;
 
   display: flex;
   justify-content: center; /*Centre horizontally*/
   align-items: center; /*Centre vertically*/
   height: 100vh;
   flex-direction: column; /*Stack buttons vertically*/
+  gap: 10px; /*Spaces between buttons*/
+  margin: 0; /*Stops overflow, so no vertical scroll bar*/
 }
 
 .button {
@@ -26,7 +28,6 @@ body {
   border: 2px solid #008CBA;
   padding: 16px 32px;
   font-size: 16px;
-  margin: 4px 2px;
   transition-duration: 0.4s;
   cursor: pointer;
 }
@@ -38,7 +39,7 @@ body {
 }
 
 </style>
-<button class="button"; onclick="document.location = 'copypaste.html'">Symbol Centre</button>
+<button class="button"; onclick="document.location = 'symbols.html'">Symbol Centre</button>
 <button class="button"; onclick="window.location.href = 'https://www.falstad.com/circuit/circuitjs.html'">CircuitJS</button>
 <button class="button"; onclick="window.location.href = 'https://www.desmos.com/calculator'">Desmos</button>
 <button class="button"; onclick="window.location.href = 'http://www.ee.ic.ac.uk/pcheung/teaching/EE2_CAS/'">EE2 CAS</button>
