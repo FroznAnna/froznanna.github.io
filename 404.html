@@ -1,0 +1,44 @@
+<!DOCTYPE html> 
+<html>
+<body>
+
+<title>FroznAnna</title>
+
+<style>
+/*Set background to image*/
+body {
+  background-image: url('404.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+  display: flex;
+  justify-content: center; /*Centre horizontally*/
+  align-items: center; /*Centre vertically*/
+  height: 100vh;
+  flex-direction: column; /*Stack buttons vertically*/
+  gap: 10px; /*Spaces between buttons*/
+  margin: 0; /*Stops overflow, so no vertical scroll bar*/
+}
+
+.button {
+  border-radius: 25px;
+  color: #000000;
+  background-color: rgba(110, 206, 255, 0.9); /*#6eceff at 90% opacity*/
+  border: 2px solid #008CBA;
+  padding: 16px 32px;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: rgba(0, 0, 0, 0.2); /*20% opacity black*/
+  color: #FFFFFF;
+  text-shadow: 1px 1px 3px #000000; /*adds contrast to text */
+}
+
+</style>
+<button class="button"; onclick="window.location.href = 'https://froznanna.github.io'">Home</button>
+</body>
+</html>
