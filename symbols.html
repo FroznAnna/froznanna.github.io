@@ -142,6 +142,7 @@ fetch('https://froznanna.github.io/symbols.json')
     }
 
     let button = document.createElement('button');
+    button.title = symbol; /*Eventually change this to show the label of the symbol*/
     button.textContent = symbol;
     button.addEventListener('click', () => copy(symbol));
 
