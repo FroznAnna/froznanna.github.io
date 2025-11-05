@@ -5,16 +5,8 @@
 <title>Symbols Copypaste</title>
 
 <style>
-h1 {
-    color: #FFFFFF;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
 body {
     background-color: #4C4E52;
-}
-
-p {
     color: #FFFFFF;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -41,14 +33,11 @@ button:active {
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: #2c3e50;
-    color: white;
     padding: 20px 30px;
     border-radius: 10px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
     z-index: 1000;
     text-align: center;
     min-width: 200px;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 #alert span {
@@ -92,6 +81,8 @@ function copy(sym) {
 
     let alertBtn = document.getElementById('alertBtn');
     alertBtn.focus();
+    setTimeout(function() {alertBox.classList.add('hidden');}, 3000)
+
     alertBtn.onclick = () => {
         alertBox.classList.add('hidden');
     }
