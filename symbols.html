@@ -100,7 +100,7 @@ button:active {
 </div>
 
 <div class="bg">
-    <img src="ResistorCodes.png" alt="Resistor Band Colour Codes">
+    <img src="./data/ResistorCodes.png" alt="Resistor Band Colour Codes">
 </div>
 
 <h1>
@@ -126,7 +126,7 @@ function copy(symbol, label) {
 </script>
 
 <script type="module">
-fetch('https://froznanna.github.io/symbols.csv')
+fetch('https://froznanna.github.io/data/symbols.csv')
     .then(response => response.text())
     .then(text => {
     let symbols = text.split("\n").filter(line => line.trim() !== ""); //.filter removes empty lines
