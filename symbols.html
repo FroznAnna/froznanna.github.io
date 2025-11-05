@@ -108,11 +108,11 @@ button:active {
 </h1>
 
 <script>
-function copy(sym) {
-    navigator.clipboard.writeText(sym);
+function copy(symbol, label) {
+    navigator.clipboard.writeText(symbol);
 
     let alertBox = document.getElementById('alert');
-    document.getElementById('alertMsg').textContent = `Symbol copied: ${sym}`;
+    document.getElementById('alertMsg').textContent = `${label} copied: ${symbol}`;
     alertBox.classList.remove('hidden');
 
     let alertBtn = document.getElementById('alertBtn');
@@ -126,28 +126,33 @@ function copy(sym) {
 </script>
 
 <script type="module">
-fetch('https://froznanna.github.io/symbols.json')
-    .then(response => response.json())
-    .then(symbols => {
-    Object.entries(symbols).forEach(([symbol, category]) => {
-    let categoryElement = document.getElementById(category);
+fetch('https://froznanna.github.io/symbols.csv')
+    .then(response => response.text())
+    .then(text => {
+    let symbols = text.split("\n").filter(line => line.trim() !== ""); //.filter removes empty lines
+    symbols.shift(); //Removes the header row
 
-    if (!categoryElement) {
-        //Creates a p header with id and text of the category
-        let p = document.createElement('p');
-        p.id = category;
-        p.textContent = category;
-        document.body.appendChild(p);
-        categoryElement = p;
-    }
+    symbols.forEach(sym => {
+        let [symbol, label, category] = sym.split(",");
 
-    let button = document.createElement('button');
-    button.title = symbol; /*Eventually change this to show the label of the symbol*/
-    button.textContent = symbol;
-    button.addEventListener('click', () => copy(symbol));
+        let categoryElement = document.getElementById(category);
 
-    categoryElement.insertAdjacentElement('afterend', button);
-    });
+        if (!categoryElement) {
+            //Creates a p header with id and text of the category
+            let p = document.createElement('p');
+            p.id = category;
+            p.textContent = category;
+            document.body.appendChild(p);
+            categoryElement = p;
+        }
+
+        let button = document.createElement('button');
+        button.title = label; /*Shows up when mouse hovers over button*/
+        button.textContent = symbol;
+        button.addEventListener('click', () => copy(symbol, label));
+
+        categoryElement.insertAdjacentElement('afterend', button);
+    })
 });
 </script>
 
