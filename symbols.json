@@ -1,0 +1,27 @@
+{
+    "Ω":"Greek",
+    "θ":"Greek",
+    "ω":"Greek",
+    "ϕ":"Greek",
+    "α":"Greek",
+    "β":"Greek",
+    "γ":"Greek",
+    "Δ":"Greek",
+    "ε":"Greek",
+    "δ":"Greek",
+    "σ":"Greek",
+    "ρ":"Greek",
+    "μ":"Greek",
+    "∇":"Greek",
+
+
+    "±":"Maths",
+    "π":"Maths",
+    "|":"Maths",
+    "√":"Maths",
+    "∫":"Maths",
+    "∮":"Maths",
+    "∑":"Maths",
+
+    "\\":"Coding"
+}
