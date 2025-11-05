@@ -80,9 +80,12 @@ button:active {
     color: inherit;
     text-decoration: none;
     cursor: pointer;
+    display: inline;
+    margin: 0;
+    padding: 0;
 }
 
-.headerBtn h1:hover {
+.headerBtn:hover {
     color: #6eceff;
     transition: color 0.3s, transform 0.2s;
 }
@@ -100,9 +103,9 @@ button:active {
     <img src="ResistorCodes.png" alt="Resistor Band Colour Codes">
 </div>
 
-<a href="https://froznanna.github.io" class="headerBtn">
-    <h1>Place to copy symbols for engineering and maths</h1>
-</a>
+<h1>
+    <a class="headerBtn" href='https://froznanna.github.io'>Place to copy symbols for engineering and maths</a>
+</h1>
 
 <script>
 function copy(sym) {
