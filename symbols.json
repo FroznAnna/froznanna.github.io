@@ -23,5 +23,6 @@
     "∮":"Maths",
     "∑":"Maths",
 
-    "\\":"Coding"
+    "\\":"Coding",
+    "`":"Coding"
 }
