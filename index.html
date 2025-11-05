@@ -1,56 +1,43 @@
 <!DOCTYPE html> 
 <html>
 <body>
+
+<title>FroznAnna</title>
+
 <style>
-/* This adds the background image and stretches it to fit the screen */
+/*Set background to image*/
 body {
   background-image: url('fbgl.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
+
+  display: flex;
+  justify-content: center; /*Centre horizontally*/
+  align-items: center; /*Centre vertically*/
+  height: 100vh;
+  flex-direction: column; /*Stack buttons vertically*/
 }
 
-/* This is for customising a button to make it look a certain way */
 .button {
-  border: none;
   border-radius: 25px;
-  color: white;
+  color: #000000;
+  background-color: #6eceff;
+  border: 2px solid #008CBA;
   padding: 16px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
   font-size: 16px;
   margin: 4px 2px;
   transition-duration: 0.4s;
   cursor: pointer;
 }
-/* This is to make the button a colour and to make it a rounded rectangle shape */
-.button1 {
-  background-color: #6eceff;
-  color: black;
-  border: 2px solid #008CBA;
-  border-radius: 25px;
-  position:absolute;
-  top: 38px;
-  left: 750px;
-}
-/* This is for to change the colours of a button when it is hovered over */
-.button1:hover {
+
+.button:hover {
   background-color: #008CBA;
-  color: white;
-}
-/* This is for customising the borders that pop up when the button is clicked */
-.button1:active, .button:focus{
-  border: 2px solid black;
-  border-radius: 25px;
-}
-.button1:focus, .button1:active {
-  outline: none !important;
-  box-shadow: none !important;
+  color: #FFFFFF;
 }
 
 </style>
-<button class="button button1"; onclick="document.location = 's.css'">CSS sheet</button>
-<button class="button button1"; onclick="document.location = 'copypaste.html'">Symbol Centre</button>
+<button class="button"; onclick="document.location = 's.css'">CSS sheet</button>
+<button class="button"; onclick="document.location = 'copypaste.html'">Symbol Centre</button>
 </body>
 </html>
