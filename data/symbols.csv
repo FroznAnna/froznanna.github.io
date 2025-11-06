@@ -31,6 +31,13 @@ symbol,label,category
 ∞,Infinity,Maths
 ⇔,Equivalent,Maths
 ≡,Identity,Maths
+×,Multiply,Maths
+•,Dot Product,Maths
+
+∯,Surface Integral,Electromagnetism
+∮,Contour Integral,Electromagnetism
+∇,Nabla,Electromagnetism
+ϕ,Phi,Electromagentism
 
 \,Backslash,Coding
 `,Backtick,Coding
