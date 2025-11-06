@@ -32,12 +32,12 @@ symbol,label,category
 ⇔,Equivalent,Maths
 ≡,Identity,Maths
 ×,Multiply,Maths
-•,Dot Product,Maths
+⋅,Dot Product,Maths
 
 ∯,Surface Integral,Electromagnetism
 ∮,Contour Integral,Electromagnetism
 ∇,Nabla,Electromagnetism
-ϕ,Phi,Electromagentism
+ϕ,Phi,Electromagnetism
 
 \,Backslash,Coding
 `,Backtick,Coding
