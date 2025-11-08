@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<title id="title">FroznAnna Recipes</title>
+<link rel="stylesheet" href="./src/recipes/styles.css">
+<body>
+
+<h1>
+    <a id="header" class="link" draggable="false" href=''>Header</a>
+</h1>
+<div class="container">
+    <div class="ingredients border">
+        <p class="subtitle">Ingredients<p>
+        <ul id="ingredients">
+        </ul>
+    </div>
+
+    <div class="method border">
+        <p class="subtitle">Method</p>
+        <ol id="method">
+        </ol>
+    </div>
+</div>
+
+<br>
+
+<div class="container border">
+    <div class="notes">
+        <p class="subtitle">Notes</p>
+        <ul id="notes">
+        </ul>
+    </div>
+    <div class="img">
+        <img id="image" class="pic" src="" alt="" draggable="false">
+    </div>
+</div>
+
+<br>
+
+<button class="homeBtn" onclick="window.location.href = 'https://froznanna.github.io'">Home</button>
+
+<script src="./src/recipes/generator.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<title>FroznAnna Recipes</title>
+<body>
+<style>
+body {
+    user-select: none;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.subtitle {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.link {
+    text-decoration: none;
+    color: inherit;
+    transition-duration: 0.2s;
+}
+
+.link:hover {
+    color: #b038ce;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ingredients {
+    flex-basis: 37%;
+}
+
+.method {
+    flex-basis: 60%;
+}
+
+.notes {
+    flex-basis: 37%;
+}
+
+.img {
+    flex-basis: 60%;
+}
+
+.pic {
+    margin-top: 10px;
+    border-radius: 15px;
+    max-width: 100%;
+    height:auto;
+}
+
+.border {
+    border-radius: 10px;
+    border: 2px solid #FFFFFF;
+    padding: 10px;
+    padding-top: 0px;
+}
+
+button {
+    border-radius: 10px;
+    padding: 8px 15px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.homeBtn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    transition-duration: 0.2s;
+    border: 1px solid #FFFFFF;
+    background-color: inherit;
+    color: #FFFFFF;
+}
+
+.homeBtn:hover {
+    background-color: #FFFFFF;
+    color: #000000;
+}
+</style>
+
+<h1>
+    <a class="link" draggable="false" href='https://www.bbc.co.uk/food/recipes/thai_chicken_curry_06763'>Thai Green Curry</a>
+</h1>
+<div class="container">
+    <div class="ingredients border">
+        <p class="subtitle">Ingredients<p>
+        <ul>
+            <li>6 skinless boneless chicken thighs</li>
+            <li>3 tbsp curry paste</li>
+            <li>4 cm ginger</li>
+            <li>2 onions, sliced</li>
+            <li>2x400g full fat coconut milk</li>
+            <li>250g sugarsnap peas</li>
+            <li>1 tbsp thai fish sauce</li>
+        </ul>
+    </div>
+
+    <div class="method border">
+        <p class="subtitle">Method</p>
+        <ol>
+            <li>Cut chicken thighs into long thin slices. Mix with 1 tbsp curry paste and season with salt</li>
+            <li>Heat 1 tbsp oil in a pan, add chicken and fry for 5 mins until cooked through. Transfer cooked chicken to plate</li>
+            <li>Add remaining oil to pan and fry onions for 10 mins until softened. Transfer to plate</li>
+            <li>Scoop top third (super creamy top part) of both cans of coconut milk into pan heat over medium low heat. Slowly bring to simmer until the water and fat separate. Add curry paste and stir fry for 3 mins</li>
+            <li>Add onions back into pan followed by the rest of the coconut milk and fish sauce. Stir the mixture and bring to a boil</li>
+            <li>Add chicken back into pan, bring to boil then reduce heat to a simmer</li>
+            <li>Add sugarsnap peas into curry, stir for 1 minute then remove pan from heat. Serve with rice</li>
+        </ol>
+    </div>
+</div>
+
+<br>
+
+<div class="container border">
+    <div class="notes">
+        <p class="subtitle">Notes</p>
+        <ul>
+            <li>Use Mae Ploy curry paste</li>
+            <li>Add bamboo shoots with sugarsnap peas</li>
+            <li>Can use galangal instead of ginger</li>
+        </ul>
+    </div>
+    <div class="img">
+        <img class="pic" src="./src/recipes/thai_green_curry.jpg" alt="Thai Green Curry" draggable="false">
+    </div>
+</div>
+
+<br>
+
+<button class="homeBtn" onclick="window.location.href = 'https://froznanna.github.io'">Home</button>
+</body>
+</html>

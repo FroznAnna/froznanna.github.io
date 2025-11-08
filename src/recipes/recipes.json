@@ -1,0 +1,31 @@
+[
+  {
+    "slug": "thai-green-curry",
+    "title": "Thai Green Curry",
+    "link": "https://www.bbc.co.uk/food/recipes/thai_chicken_curry_06763",
+    "ingredients": [
+      "6 skinless boneless chicken thighs",
+      "3 tbsp curry paste",
+      "4 cm ginger",
+      "2 onions, sliced",
+      "2x400g full fat coconut milk",
+      "250g sugarsnap peas",
+      "1 tbsp thai fish sauce"
+    ],
+    "method": [
+      "Cut chicken thighs into long thin slices. Mix with 1 tbsp curry paste and season with salt",
+      "Heat 1 tbsp oil in a pan, add chicken and fry for 5 mins until cooked through. Transfer cooked chicken to a plate",
+      "Add remaining oil to pan and fry onions for 10 mins until softened. Transfer to plate",
+      "Scoop top third (super creamy top part) of both cans of coconut milk into pan. Heat over medium low heat and slowly bring to a simmer until the water and fat separate. Add curry paste and stir fry for 3 mins",
+      "Add onions back into pan followed by the rest of the coconut milk and fish sauce. Stir the mixture and bring to a boil",
+      "Add chicken back into pan, bring to boil then reduce heat to a simmer",
+      "Add sugarsnap peas into curry, stir for 1 minute then remove pan from heat. Serve with rice"
+    ],
+    "notes": [
+      "Use Mae Ploy curry paste",
+      "Add bamboo shoots with the sugarsnap peas",
+      "Can use galangal instead of ginger"
+    ],
+    "image": "./src/recipes/thai_green_curry.jpg"
+  }
+]
