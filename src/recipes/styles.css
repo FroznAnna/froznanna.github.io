@@ -41,6 +41,10 @@ body {
     flex-basis: 60%;
 }
 
+.hidden {
+    display: none;
+}
+
 .pic {
     margin-top: 10px;
     border-radius: 15px;

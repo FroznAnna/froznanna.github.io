@@ -3,15 +3,15 @@ document.addEventListener('DOMContentLoaded', () => {
     const urlParams = new URLSearchParams(window.location.search);
     const recipeSlug = urlParams.get('id');
 
-    function hideAll() { //Hides divs and br, whilst keeping header, home button and background
+    function showAll() { //Shows divs and br, whilst keeping header, home button and background
         let divs = document.querySelectorAll('div');
         divs.forEach(div => {
-            div.style.display = 'none';
+            div.classList.remove('hidden');
         })
 
         let gaps = document.querySelectorAll('br');
         gaps.forEach(gap => {
-            gap.style.display = 'none';
+            gap.classList.remove('hidden');
         })
     }
 
@@ -23,7 +23,6 @@ document.addEventListener('DOMContentLoaded', () => {
         .then(response => response.json())
         .then(data => {
             if (!recipeSlug) { //If no ID is provided - show list of all recipes
-                hideAll();
                 document.getElementById('header').textContent = "Recipes";
                 data.forEach(recipe => {
                     let button = document.createElement('button');
@@ -38,6 +37,8 @@ document.addEventListener('DOMContentLoaded', () => {
             const recipe = data.find(r => r.slug === recipeSlug);
 
             if (recipe) {
+                showAll();
+                document.getElementById('back').setAttribute('onclick',"window.location.href = 'https://froznanna.github.io/recipe'")
                 let header = document.getElementById('header');
                 header.textContent = recipe.title;
                 header.href = recipe.link;
@@ -62,7 +63,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 createList(recipe.notes, 'notes');
 
             } else {
-                hideAll();
                 document.getElementById('title').textContent = "Recipe Not Found";
                 document.getElementById('header').textContent = "Recipe Not Found";
                 let warning = document.createElement('p');

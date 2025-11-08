@@ -5,9 +5,9 @@
 <body>
 
 <h1>
-    <a id="header" class="link" draggable="false" href='https://froznanna.github.io/recipe'>Header</a>
+    <a id="header" class="link" draggable="false" href='https://froznanna.github.io/recipe'>Recipes</a>
 </h1>
-<div class="container">
+<div class="container hidden">
     <div class="ingredients border">
         <p class="subtitle">Ingredients<p>
         <ul id="ingredients">
@@ -21,9 +21,9 @@
     </div>
 </div>
 
-<br>
+<br class="hidden">
 
-<div class="container border">
+<div class="container hidden border">
     <div class="notes">
         <p class="subtitle">Notes</p>
         <ul id="notes">
@@ -34,9 +34,9 @@
     </div>
 </div>
 
-<br>
+<br class="hidden">
 
-<button class="homeBtn" onclick="window.location.href = 'https://froznanna.github.io'">Home</button>
+<button id="back" class="homeBtn" onclick="window.location.href = 'https://froznanna.github.io'">Home</button>
 
 <script src="./src/recipes/generator.js"></script>
 
