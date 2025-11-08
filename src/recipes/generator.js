@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
         return; 
     }
 
-    fetch('./recipes.json')
+    fetch('https://froznanna.github.io/recipes/recipes.json')
         .then(response => response.json())
         .then(data => {
             const recipe = data.find(r => r.slug === recipeSlug);
