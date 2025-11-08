@@ -27,5 +27,28 @@
       "Can use galangal instead of ginger"
     ],
     "image": "./src/recipes/thai_green_curry.jpg"
+  },
+  {
+    "slug": "korean-beef",
+    "title": "Korean Beef",
+    "link": "https://www.the-girl-who-ate-everything.com/cheater-korean-beef/#recipe",
+    "ingredients": [
+      "500g minced beef",
+      "3 garlic cloves, minced",
+      "¼ cup brown sugar",
+      "¼ cup soy sauce",
+      "2cm ginger",
+      "1 tbsp gochujang"
+    ],
+    "method": [
+      "Melt 1 tbsp butter in pan, add garlic and stir fry until fragrant",
+      "Add minced beef and cook until browned",
+      "In a separate cup mix together brown sugar, soy sauce, and gochujang",
+      "Add sauce and ginger to beef, and stir until coated. Serve with rice"
+    ],
+    "notes": [
+      "Serve with boiled broccoli - 2 broccoli for a week's worth"
+    ],
+    "image": "./src/recipes/korean_beef.jpg"
   }
 ]
