@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    //Get the requested recipe ID from the URL (?id=thai-green-curry)
+    //Pulls id from URL (?id=thai-green-curry)
     const urlParams = new URLSearchParams(window.location.search);
     const recipeSlug = urlParams.get('id');
 
@@ -47,10 +47,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 image.src = recipe.image;
                 image.alt = recipe.title;
 
-                // Function to create list items (li)
+                //Function creates lists
                 const createList = (items, elementId) => {
                     let listElement = document.getElementById(elementId);
-                    listElement.innerHTML = ''; // Clear existing content
+                    listElement.innerHTML = ''; //Clear existing content
                     items.forEach(item => {
                         const li = document.createElement('li');
                         li.textContent = item;
