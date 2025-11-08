@@ -50,5 +50,235 @@
       "Serve with boiled broccoli - 2 broccoli for a week's worth"
     ],
     "image": "./src/recipes/korean_beef.jpg"
+  },
+  {
+    "slug": "lemon-chicken",
+    "title": "Lemon Chicken",
+    "link": "https://www.the-girl-who-ate-everything.com/cheater-korean-beef/#recipe",
+    "ingredients": [
+      "500g minced beef",
+      "3 garlic cloves, minced",
+      "¼ cup brown sugar",
+      "¼ cup soy sauce",
+      "2cm ginger",
+      "1 tbsp gochujang"
+    ],
+    "method": [
+      "Melt 1 tbsp butter in pan, add garlic and stir fry until fragrant",
+      "Add minced beef and cook until browned",
+      "In a separate cup mix together brown sugar, soy sauce, and gochujang",
+      "Add sauce and ginger to beef, and stir until coated. Serve with rice"
+    ],
+    "notes": [
+      "Serve with boiled broccoli - 2 broccoli for a week's worth"
+    ],
+    "image": "./src/recipes/korean_beef.jpg"
+  },  
+  {
+    "slug": "gochujang-glazed-chicken",
+    "title": "Gochujang Glazed Chicken",
+    "link": "https://www.the-girl-who-ate-everything.com/cheater-korean-beef/#recipe",
+    "ingredients": [
+      "500g minced beef",
+      "3 garlic cloves, minced",
+      "¼ cup brown sugar",
+      "¼ cup soy sauce",
+      "2cm ginger",
+      "1 tbsp gochujang"
+    ],
+    "method": [
+      "Melt 1 tbsp butter in pan, add garlic and stir fry until fragrant",
+      "Add minced beef and cook until browned",
+      "In a separate cup mix together brown sugar, soy sauce, and gochujang",
+      "Add sauce and ginger to beef, and stir until coated. Serve with rice"
+    ],
+    "notes": [
+      "Serve with boiled broccoli - 2 broccoli for a week's worth"
+    ],
+    "image": "./src/recipes/korean_beef.jpg"
+  },
+  {
+    "slug": "pork-belly-sandwiches",
+    "title": "Pork Belly Sandwiches",
+    "link": "https://www.the-girl-who-ate-everything.com/cheater-korean-beef/#recipe",
+    "ingredients": [
+      "500g minced beef",
+      "3 garlic cloves, minced",
+      "¼ cup brown sugar",
+      "¼ cup soy sauce",
+      "2cm ginger",
+      "1 tbsp gochujang"
+    ],
+    "method": [
+      "Melt 1 tbsp butter in pan, add garlic and stir fry until fragrant",
+      "Add minced beef and cook until browned",
+      "In a separate cup mix together brown sugar, soy sauce, and gochujang",
+      "Add sauce and ginger to beef, and stir until coated. Serve with rice"
+    ],
+    "notes": [
+      "Serve with boiled broccoli - 2 broccoli for a week's worth"
+    ],
+    "image": "./src/recipes/korean_beef.jpg"
+  },
+  {
+    "slug": "one-hour-bread",
+    "title": "One Hour Bread",
+    "link": "https://www.the-girl-who-ate-everything.com/cheater-korean-beef/#recipe",
+    "ingredients": [
+      "500g minced beef",
+      "3 garlic cloves, minced",
+      "¼ cup brown sugar",
+      "¼ cup soy sauce",
+      "2cm ginger",
+      "1 tbsp gochujang"
+    ],
+    "method": [
+      "Melt 1 tbsp butter in pan, add garlic and stir fry until fragrant",
+      "Add minced beef and cook until browned",
+      "In a separate cup mix together brown sugar, soy sauce, and gochujang",
+      "Add sauce and ginger to beef, and stir until coated. Serve with rice"
+    ],
+    "notes": [
+      "Serve with boiled broccoli - 2 broccoli for a week's worth"
+    ],
+    "image": "./src/recipes/korean_beef.jpg"
+  },
+  {
+    "slug": "jollof-rice",
+    "title": "Jollof Rice",
+    "link": "https://www.the-girl-who-ate-everything.com/cheater-korean-beef/#recipe",
+    "ingredients": [
+      "500g minced beef",
+      "3 garlic cloves, minced",
+      "¼ cup brown sugar",
+      "¼ cup soy sauce",
+      "2cm ginger",
+      "1 tbsp gochujang"
+    ],
+    "method": [
+      "Melt 1 tbsp butter in pan, add garlic and stir fry until fragrant",
+      "Add minced beef and cook until browned",
+      "In a separate cup mix together brown sugar, soy sauce, and gochujang",
+      "Add sauce and ginger to beef, and stir until coated. Serve with rice"
+    ],
+    "notes": [
+      "Serve with boiled broccoli - 2 broccoli for a week's worth"
+    ],
+    "image": "./src/recipes/korean_beef.jpg"
+  },
+  {
+    "slug": "garlic-chicken",
+    "title": "One Pot Garlic Chicken",
+    "link": "https://www.the-girl-who-ate-everything.com/cheater-korean-beef/#recipe",
+    "ingredients": [
+      "500g minced beef",
+      "3 garlic cloves, minced",
+      "¼ cup brown sugar",
+      "¼ cup soy sauce",
+      "2cm ginger",
+      "1 tbsp gochujang"
+    ],
+    "method": [
+      "Melt 1 tbsp butter in pan, add garlic and stir fry until fragrant",
+      "Add minced beef and cook until browned",
+      "In a separate cup mix together brown sugar, soy sauce, and gochujang",
+      "Add sauce and ginger to beef, and stir until coated. Serve with rice"
+    ],
+    "notes": [
+      "Serve with boiled broccoli - 2 broccoli for a week's worth"
+    ],
+    "image": "./src/recipes/korean_beef.jpg"
+  },
+  {
+    "slug": "oven-baked-pork-chops",
+    "title": "Oven Baked Pork Chops",
+    "link": "https://www.the-girl-who-ate-everything.com/cheater-korean-beef/#recipe",
+    "ingredients": [
+      "500g minced beef",
+      "3 garlic cloves, minced",
+      "¼ cup brown sugar",
+      "¼ cup soy sauce",
+      "2cm ginger",
+      "1 tbsp gochujang"
+    ],
+    "method": [
+      "Melt 1 tbsp butter in pan, add garlic and stir fry until fragrant",
+      "Add minced beef and cook until browned",
+      "In a separate cup mix together brown sugar, soy sauce, and gochujang",
+      "Add sauce and ginger to beef, and stir until coated. Serve with rice"
+    ],
+    "notes": [
+      "Serve with boiled broccoli - 2 broccoli for a week's worth"
+    ],
+    "image": "./src/recipes/korean_beef.jpg"
+  },
+  {
+    "slug": "matcha-shokupan",
+    "title": "Matcha Shokupan",
+    "link": "https://www.the-girl-who-ate-everything.com/cheater-korean-beef/#recipe",
+    "ingredients": [
+      "500g minced beef",
+      "3 garlic cloves, minced",
+      "¼ cup brown sugar",
+      "¼ cup soy sauce",
+      "2cm ginger",
+      "1 tbsp gochujang"
+    ],
+    "method": [
+      "Melt 1 tbsp butter in pan, add garlic and stir fry until fragrant",
+      "Add minced beef and cook until browned",
+      "In a separate cup mix together brown sugar, soy sauce, and gochujang",
+      "Add sauce and ginger to beef, and stir until coated. Serve with rice"
+    ],
+    "notes": [
+      "Serve with boiled broccoli - 2 broccoli for a week's worth"
+    ],
+    "image": "./src/recipes/korean_beef.jpg"
+  },
+  {
+    "slug": "oven-baked-chicken-thighs",
+    "title": "Oven Baked Chicken Thighs",
+    "link": "https://www.the-girl-who-ate-everything.com/cheater-korean-beef/#recipe",
+    "ingredients": [
+      "500g minced beef",
+      "3 garlic cloves, minced",
+      "¼ cup brown sugar",
+      "¼ cup soy sauce",
+      "2cm ginger",
+      "1 tbsp gochujang"
+    ],
+    "method": [
+      "Melt 1 tbsp butter in pan, add garlic and stir fry until fragrant",
+      "Add minced beef and cook until browned",
+      "In a separate cup mix together brown sugar, soy sauce, and gochujang",
+      "Add sauce and ginger to beef, and stir until coated. Serve with rice"
+    ],
+    "notes": [
+      "Serve with boiled broccoli - 2 broccoli for a week's worth"
+    ],
+    "image": "./src/recipes/korean_beef.jpg"
+  },
+  {
+    "slug": "air-fryer-doughnuts",
+    "title": "Air Fryer Doughnuts",
+    "link": "https://www.the-girl-who-ate-everything.com/cheater-korean-beef/#recipe",
+    "ingredients": [
+      "500g minced beef",
+      "3 garlic cloves, minced",
+      "¼ cup brown sugar",
+      "¼ cup soy sauce",
+      "2cm ginger",
+      "1 tbsp gochujang"
+    ],
+    "method": [
+      "Melt 1 tbsp butter in pan, add garlic and stir fry until fragrant",
+      "Add minced beef and cook until browned",
+      "In a separate cup mix together brown sugar, soy sauce, and gochujang",
+      "Add sauce and ginger to beef, and stir until coated. Serve with rice"
+    ],
+    "notes": [
+      "Serve with boiled broccoli - 2 broccoli for a week's worth"
+    ],
+    "image": "./src/recipes/korean_beef.jpg"
   }
 ]

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<title>FroznAnna Recipes</title>
+<body>
+<style>
+body {
+    user-select: none;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.subtitle {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.link {
+    text-decoration: none;
+    color: inherit;
+    transition-duration: 0.2s;
+}
+
+.link:hover {
+    color: #b038ce;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ingredients {
+    flex-basis: 37%;
+}
+
+.method {
+    flex-basis: 60%;
+}
+
+.notes {
+    flex-basis: 37%;
+}
+
+.img {
+    flex-basis: 60%;
+}
+
+.pic {
+    margin-top: 10px;
+    border-radius: 15px;
+    max-width: 100%;
+    height:auto;
+}
+
+.border {
+    border-radius: 10px;
+    border: 2px solid #FFFFFF;
+    padding: 10px;
+    padding-top: 0px;
+}
+
+button {
+    border-radius: 10px;
+    padding: 8px 15px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.homeBtn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    transition-duration: 0.2s;
+    border: 1px solid #FFFFFF;
+    background-color: inherit;
+    color: #FFFFFF;
+}
+
+.homeBtn:hover {
+    background-color: #FFFFFF;
+    color: #000000;
+}
+</style>
+
+<h1>
+    <a class="link" draggable="false" href='https://www.bbc.co.uk/food/recipes/thai_chicken_curry_06763'>Watermelon Lasagna</a>
+</h1>
+<div class="container">
+    <div class="ingredients border">
+        <p class="subtitle">Ingredients<p>
+        <ul>
+            <li>6 watermelons, quartered</li>
+            <li>1 lasagna</li>
+            <li>4 cm ginger</li>
+            <li>2 mushrooms, diced</li>
+            <li>250g sugarsnap peas</li>
+            <li>5 gallons motor oil</li>
+        </ul>
+    </div>
+
+    <div class="method border">
+        <p class="subtitle">Method</p>
+        <ol>
+            <li>Deep fry diced mushrooms</li>
+            <li>Heat 1 tbsp motor oil in a saucepan, add sugarsnap peas and stir fry until black</li>
+            <li>Eat the ginger to cleanse your palette</li>
+            <li>Oil a baking dish and place the lasagna in the middle, surrounded by 3 of the watermelons.</li>
+            <li>Bake the remaning watermelons until the flesh is soft</li>
+        </ol>
+    </div>
+</div>
+
+<br>
+
+<div class="container border">
+    <div class="notes">
+        <p class="subtitle">Notes</p>
+        <ul>
+            <li>This is a generational recipe passed from my grandfather to my grandmother</li>
+            <li>If watermelon is not in season, then wait until it is</li>
+        </ul>
+    </div>
+    <div class="img">
+        <img class="pic" src="./src/recipes/watermelon-lasagna.jpg" alt="Thai Green Curry" draggable="false">
+    </div>
+</div>
+
+<br>
+
+<button class="homeBtn" onclick="window.location.href = 'https://froznanna.github.io'">Home</button>
+</body>
+</html>
