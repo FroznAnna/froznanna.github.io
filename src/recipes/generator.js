@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
         return; 
     }
 
-    fetch('https://froznanna.github.io/recipes/recipes.json')
+    fetch('https://froznanna.github.io/src/recipes/recipes.json')
         .then(response => response.json())
         .then(data => {
             const recipe = data.find(r => r.slug === recipeSlug);
@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 header.textContent = recipe.title;
                 header.href = recipe.link;
 
-                let image = document.getElemeneById('image');
+                let image = document.getElementById('image');
                 image.src = recipe.image;
                 image.alt = recipe.title;
 
