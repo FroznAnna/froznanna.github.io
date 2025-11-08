@@ -34,7 +34,7 @@ symbol,label,category
 ×,Multiply,Maths
 ⋅,Dot Product,Maths
 
-∯,Surface Integral,Electromagnetism
+∯,Closed Surface Integral,Electromagnetism
 ∮,Contour Integral,Electromagnetism
 ∇,Nabla,Electromagnetism
 ϕ,Phi,Electromagnetism
