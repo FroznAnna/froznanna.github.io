@@ -100,23 +100,32 @@
   {
     "slug": "pork-belly-sandwiches",
     "title": "Pork Belly Sandwiches",
-    "link": "https://www.the-girl-who-ate-everything.com/cheater-korean-beef/#recipe",
+    "link": "https://afoodloverskitchen.com/pork-belly-sandwiches/#recipe",
     "ingredients": [
-      "500g minced beef",
-      "3 garlic cloves, minced",
-      "¼ cup brown sugar",
-      "¼ cup soy sauce",
-      "2cm ginger",
-      "1 tbsp gochujang"
+      "500g pork belly",
+      "10ml olive oil",
+      "brown sugar",
+      "paprika",
+      "salt",
+      "chili powder",
+      "onion powder",
+      "garlic powder",
+      "4 tbsp mustard",
+      "2 tbsp honey",
+      "1 tsp brown sugar",
+      "1/2 tsp paprika"
     ],
     "method": [
-      "Melt 1 tbsp butter in pan, add garlic and stir fry until fragrant",
-      "Add minced beef and cook until browned",
-      "In a separate cup mix together brown sugar, soy sauce, and gochujang",
-      "Add sauce and ginger to beef, and stir until coated. Serve with rice"
+      "Cut the skin off the pork belly and pat dry with kitchen roll",
+      "Rub belly with olive oil, then season with dry rub ingredients",
+      "Wrap pork belly with foil",
+      "Air fry for 50 minutes at 190C - Tighten foil at 30 minutes",
+      "Remove from air fryer, and allow to rest for 15 minutes",
+      "Make the sauce - mix mustard, honey, brown sugar and paprika into saucepan and bring to simmer, whisking until dissolved",
+      "Cube the pork and add to the sauce"
     ],
     "notes": [
-      "Serve with boiled broccoli - 2 broccoli for a week's worth"
+      "Pork can be baked in oven for 1 hour at 140C then 1.5 hours at 240C"
     ],
     "image": "./src/recipes/korean_beef.jpg"
   },
