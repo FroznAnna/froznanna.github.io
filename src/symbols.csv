@@ -33,6 +33,11 @@ symbol,label,category
 ≡,Identity,Maths
 ×,Multiply,Maths
 ⋅,Dot Product,Maths
+∀,For All,Maths
+∈,Element of,Maths
+∩,Intersection,Maths
+∪,Union,Maths
+x̂,X hat,Maths
 
 ∯,Closed Surface Integral,Electromagnetism
 ∮,Contour Integral,Electromagnetism
