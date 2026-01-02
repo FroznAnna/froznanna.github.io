@@ -53,49 +53,296 @@
   },
   {
     "slug": "lemon-chicken",
-    "title": "Lemon Chicken",
-    "link": "https://www.the-girl-who-ate-everything.com/cheater-korean-beef/#recipe",
+    "title": "Crispy Sesame Lemon Chicken",
+    "link": "https://www.bbcgoodfood.com/recipes/crispy-sesame-lemon-chicken",
     "ingredients": [
-      "500g minced beef",
-      "3 garlic cloves, minced",
-      "¼ cup brown sugar",
-      "¼ cup soy sauce",
-      "2cm ginger",
-      "1 tbsp gochujang"
+      "600g chicken breast fillets, cut into 2cm pieces",
+      "2 tbsp cornflour",
+      "5 tbsp plain flour",
+      "1 tsp baking powder",
+      "Large pinch of white pepper",
+      "1 egg, beaten",
+      "2 tbsp sunflower or vegetable oil, for frying",
+      "2 spring onions, finely sliced, to serve",
+      "2 tsp cornflour (for sauce)",
+      "2 unwaxed lemons, zested and juiced",
+      "2 tbsp honey",
+      "2 tbsp soy sauce",
+      "2 tsp sesame seeds",
+      "2 tsp sesame oil"
     ],
     "method": [
-      "Melt 1 tbsp butter in pan, add garlic and stir fry until fragrant",
-      "Add minced beef and cook until browned",
-      "In a separate cup mix together brown sugar, soy sauce, and gochujang",
-      "Add sauce and ginger to beef, and stir until coated. Serve with rice"
+      "Whisk 2 tsp cornflour with lemon zest and juice until smooth; add honey, soy, sesame seeds, and sesame oil. Set aside.",
+      "Combine 2 tbsp cornflour, plain flour, baking powder, 1/4 tsp salt, pepper, egg, and 4 tbsp water in a bowl.",
+      "Toss chicken in the batter.",
+      "Heat oil and fry chicken in batches for 6 mins until golden; drain on kitchen paper.",
+      "Return all chicken to the pan over high heat, pour in the sauce and toss until thickened and clinging to the chicken.",
+      "Scatter with spring onions and serve."
     ],
     "notes": [
-      "Serve with boiled broccoli - 2 broccoli for a week's worth"
+      "Serve with noodles if desired.",
+      "Nutritional info: 280 kcal per serving (serves 6)."
     ],
-    "image": "./src/recipes/korean_beef.jpg"
-  },  
+    "image": "./src/recipes/crispy_sesame_lemon_chicken.jpg"
+  },
   {
     "slug": "gochujang-glazed-chicken",
     "title": "Gochujang Glazed Chicken",
-    "link": "https://www.the-girl-who-ate-everything.com/cheater-korean-beef/#recipe",
+    "link": "https://aaronandclaire.com/gochujang-glazed-chicken/",
     "ingredients": [
-      "500g minced beef",
-      "3 garlic cloves, minced",
-      "¼ cup brown sugar",
-      "¼ cup soy sauce",
-      "2cm ginger",
-      "1 tbsp gochujang"
+      "2.2 lb (1kg) boneless skin-on chicken thighs",
+      "3 green onions, sliced (separate whites and greens)",
+      "5-8 garlic cloves, finely chopped",
+      "2 tsp grated ginger",
+      "2 tbsp gochujang (Korean chili paste)",
+      "2 tbsp gochugaru (Korean chili pepper flakes)",
+      "1.5 tbsp soy sauce",
+      "1 tbsp oyster sauce",
+      "1/2 tbsp chicken bouillon powder",
+      "1 tbsp honey",
+      "3 tbsp mirin",
+      "1.5 tbsp cornstarch",
+      "1/2 cup (120ml) water",
+      "Potato starch (for coating)"
     ],
     "method": [
-      "Melt 1 tbsp butter in pan, add garlic and stir fry until fragrant",
-      "Add minced beef and cook until browned",
-      "In a separate cup mix together brown sugar, soy sauce, and gochujang",
-      "Add sauce and ginger to beef, and stir until coated. Serve with rice"
+      "Combine gochujang, gochugaru, soy sauce, oyster sauce, bouillon, honey, mirin, water, and cornstarch in a bowl.",
+      "Pat chicken dry, season with salt/pepper, and coat with potato starch.",
+      "Sear chicken skin-side down in oil for 4 mins; flip and cook 4 more mins until done. Remove chicken.",
+      "In the same pan, sauté garlic, ginger, and white parts of green onions until fragrant.",
+      "Add sauce to the pan and bring to a boil until thickened.",
+      "Add chicken back to the pan and toss for 1-2 minutes until coated."
     ],
     "notes": [
-      "Serve with boiled broccoli - 2 broccoli for a week's worth"
+      "Serve over rice with optional asparagus stir-fry and soft-boiled eggs.",
+      "Potato starch coating is optional but helps the sauce stick better."
     ],
-    "image": "./src/recipes/korean_beef.jpg"
+    "image": "./src/recipes/gochujang_glazed_chicken.jpg"
+  },
+  {
+    "slug": "one-hour-bread",
+    "title": "One Hour Bread",
+    "link": "https://breadsandsweets.com/one-hour-bread/",
+    "ingredients": [
+      "1 packet (or 2 1/4 tsp) active dry yeast",
+      "1 tbsp light brown sugar",
+      "1 1/2 cups warm water",
+      "3 1/2 cups all-purpose flour",
+      "2 tbsp olive oil (plus more for brushing)",
+      "3/4 tsp kosher salt (plus more for topping)",
+      "2 tsp fresh herbs (optional)"
+    ],
+    "method": [
+      "Preheat oven to 400°F.",
+      "Stir yeast, brown sugar, and warm water; let sit for 5 mins to bloom.",
+      "Add flour, oil, salt, and herbs. Stir until flour is incorporated and pulls from the bowl.",
+      "Form into a ball and let proof in a warm place for 20 mins.",
+      "Place on a baking sheet, cut 3-4 slashes on top, and brush with oil/salt.",
+      "Bake for 30-35 mins until golden brown."
+    ],
+    "notes": [
+      "For a darker crust, you can brush with milk before baking.",
+      "Proofing in a warm microwave with a cup of boiling water helps the speed."
+    ],
+    "image": "./src/recipes/one_hour_bread.jpg"
+  },
+  {
+    "slug": "jollof-rice",
+    "title": "Chef John's Jollof Rice",
+    "link": "https://www.allrecipes.com/chef-johns-jollof-rice-recipe-7499757",
+    "ingredients": [
+      "Chicken thighs (bone-in or boneless)",
+      "Long-grain parboiled rice",
+      "Tomato paste",
+      "Red bell peppers and tomatoes (blended)",
+      "Onions, diced",
+      "Chicken stock",
+      "Cayenne pepper and red pepper flakes",
+      "Worcestershire sauce",
+      "Carrots and green beans",
+      "Thyme and bay leaves"
+    ],
+    "method": [
+      "Brown chicken pieces in a pot and set aside.",
+      "Sauté onions until translucent, then add tomato paste and fry for several minutes.",
+      "Add the blended pepper/tomato mixture and cook down until reduced.",
+      "Stir in spices, stock, and rice.",
+      "Bring to a boil, then cover and simmer on low heat until rice is tender.",
+      "Fold in vegetables like carrots and green beans near the end of cooking."
+    ],
+    "notes": [
+      "Make sure to turn heat to high to bring to a simmer after adding sauce to rice.",
+      "Parboiled rice is essential for the traditional texture to prevent mushiness."
+    ],
+    "image": "./src/recipes/jollof_rice.jpg"
+  },
+  {
+    "slug": "one-pot-garlic-chicken",
+    "title": "One-Pot Garlic Chicken",
+    "link": "https://www.bbcgoodfood.com/recipes/one-pot-garlic-chicken",
+    "ingredients": [
+      "4 chicken breasts or 8 thighs",
+      "2 tbsp plain flour",
+      "25g butter",
+      "1 tbsp sunflower oil",
+      "10-15 small garlic cloves",
+      "250ml hot chicken stock",
+      "100ml double cream",
+      "30g Parmigiano-Reggiano, grated",
+      "Fresh parsley, chopped"
+    ],
+    "method": [
+      "Coat chicken in flour and season.",
+      "Fry chicken in oil for 1-2 mins per side until golden; remove from pan.",
+      "Add butter and whole peeled garlic cloves to the pan; cook 5 mins until golden.",
+      "Return chicken to pan, pour in stock, and simmer for 10 mins.",
+      "Stir in cream and cheese; simmer for 5 mins until sauce thickens.",
+      "Scatter with parsley and serve."
+    ],
+    "notes": [
+      "Great served with rice or jacket potatoes.",
+      "Thighs are recommended as they are harder to overcook than breasts."
+    ],
+    "image": "./src/recipes/one_pot_garlic_chicken.jpg"
+  },
+  {
+    "slug": "baked-pork-chops",
+    "title": "Oven Baked Pork Chops",
+    "link": "https://www.recipetineats.com/oven-baked-pork-chops-with-potatoes/",
+    "ingredients": [
+      "4 pork chops (200-250g each)",
+      "800g baby potatoes, halved",
+      "2 tbsp ketchup",
+      "1 tbsp soy sauce",
+      "2 tbsp brown sugar",
+      "1 tbsp olive oil",
+      "1 clove garlic, minced",
+      "2 tsp apple cider vinegar",
+      "1 tsp Worcestershire sauce"
+    ],
+    "method": [
+      "Preheat oven to 220C/430F.",
+      "Toss potatoes in oil/salt/pepper on a tray and bake for 15 mins.",
+      "Mix ketchup, soy, sugar, oil, garlic, vinegar, and Worcestershire sauce for the rub.",
+      "Slather pork chops with the rub.",
+      "Add pork to the tray with potatoes and bake for 15 mins.",
+      "Flip pork, brush with remaining sauce, and broil/grill for 5-10 mins until caramelised."
+    ],
+    "notes": [
+      "Ensure potatoes are no larger than 3cm to cook in time.",
+      "Use bone-in chops for the best flavor and juiciness."
+    ],
+    "image": "./src/recipes/pork_chops_potatoes.jpg"
+  },
+  {
+    "slug": "matcha-shokupan",
+    "title": "Matcha Shokupan",
+    "link": "https://www.siftandsimmer.com/matcha-shokupan-japanese-milk-bread/",
+    "ingredients": [
+      "255g bread flour (plus 15g for tangzhong)",
+      "5g matcha powder",
+      "113ml whole milk (plus 20ml for tangzhong)",
+      "30g granulated sugar",
+      "2g sea salt",
+      "6g active dry yeast",
+      "1 large egg",
+      "20g unsalted butter, room temperature",
+      "20ml water (for tangzhong)"
+    ],
+    "method": [
+      "Make tangzhong: whisk 15g flour, matcha, 20ml milk, and 20ml water over low heat into a paste. Cool.",
+      "Activate yeast in warm milk and sugar.",
+      "Mix tangzhong, flour, salt, egg, and yeast mixture in a stand mixer.",
+      "Knead until smooth, then incorporate butter pieces. Let rise for 60-90 mins.",
+      "Divide into 3, roll into rectangles, coil like snails, and place in a Pullman pan.",
+      "Rise until near top of pan, then bake at 350F for 30-35 mins."
+    ],
+    "notes": [
+      "A Pullman loaf pan is required for the signature square shape.",
+      "Let cool completely before slicing to set the texture."
+    ],
+    "image": "./src/recipes/matcha_shokupan.jpg"
+  },
+  {
+    "slug": "oven-baked-chicken-thighs",
+    "title": "Baked Chicken Thighs",
+    "link": "https://www.jocooks.com/recipes/oven-baked-chicken-thighs/",
+    "ingredients": [
+      "2 lb chicken thighs (bone-in, skin-on)",
+      "2 tbsp olive oil",
+      "1 tbsp whole grain Dijon mustard",
+      "1 tbsp yellow mustard",
+      "2 tbsp honey",
+      "6 cloves garlic, minced",
+      "1/4 tsp red pepper flakes",
+      "Salt and pepper to taste"
+    ],
+    "method": [
+      "Preheat oven to 400°F.",
+      "Season chicken thighs with salt and pepper.",
+      "Whisk together olive oil, both mustards, honey, garlic, and red pepper flakes.",
+      "Coat chicken thoroughly in the sauce.",
+      "Place chicken in a baking dish and bake for 30-35 minutes until the skin is crispy and internal temp is 165°F."
+    ],
+    "notes": [
+      "For extra crispy skin, you can broil for the last 2-3 minutes.",
+      "Bone-in thighs provide much more flavor than boneless."
+    ],
+    "image": "./src/recipes/oven_baked_chicken_thighs.jpg"
+  },
+  {
+    "slug": "air-fryer-doughnuts",
+    "title": "Air Fryer Doughnuts",
+    "link": "https://annabanana.co/air-fryer-doughnuts/",
+    "ingredients": [
+      "300g plain flour",
+      "50g caster sugar",
+      "1/2 tsp salt",
+      "1/2 tsp ground nutmeg",
+      "140ml whole milk",
+      "1 large egg",
+      "14g fast-action dry yeast",
+      "100g butter, melted",
+      "Cinnamon sugar for coating"
+    ],
+    "method": [
+      "Mix dry ingredients; add milk, egg, yeast, and butter.",
+      "Knead for 10-15 mins (or 3-5 in mixer) until smooth. Let rise for 2 hours.",
+      "Roll dough to 1-inch thickness and cut into circles with a hole.",
+      "Let shaped doughnuts rise for 45 mins.",
+      "Preheat air fryer to 180°C. Grease basket with butter.",
+      "Air fry for 4 minutes until golden, then coat in cinnamon sugar while warm."
+    ],
+    "notes": [
+      "Do not roll the dough too thin or they will be flat.",
+      "Best eaten fresh on the day they are made."
+    ],
+    "image": "./src/recipes/air_fryer_doughnuts.jpg"
+  },
+  {
+    "slug": "crispy-pork-belly",
+    "title": "Chinese Crispy Pork Belly (Siu Yuk)",
+    "link": "https://kwokspots.com/crispy-pork-belly/",
+    "ingredients": [
+      "1kg pork belly (skin-on)",
+      "1 1/2 tbsp Shaoxing wine",
+      "1 tsp Chinese five spice powder",
+      "1 tsp white pepper",
+      "1 tbsp white vinegar",
+      "200g rock salt"
+    ],
+    "method": [
+      "Prick hundreds of holes in the skin with a skewer (do not pierce the meat).",
+      "Rub wine and spices onto the meat side only. Refrigerate uncovered for 12-24 hours to dry the skin.",
+      "Preheat oven to 180C/350F. Wrap pork in foil so only the skin is exposed.",
+      "Brush skin with vinegar and cover with a thick layer of rock salt. Roast for 60 mins.",
+      "Remove salt and foil. Broil/grill for 20-25 mins until skin is puffed and golden."
+    ],
+    "notes": [
+      "Rock salt prevents the pork from getting too salty and is easy to remove.",
+      "Avoid piercing into the fat/meat when pricking holes to prevent juices from ruining the crackling."
+    ],
+    "image": "./src/recipes/crispy_pork_belly.jpg"
   },
   {
     "slug": "pork-belly-sandwiches",
@@ -130,164 +377,35 @@
     "image": "./src/recipes/korean_beef.jpg"
   },
   {
-    "slug": "one-hour-bread",
-    "title": "One Hour Bread",
-    "link": "https://www.the-girl-who-ate-everything.com/cheater-korean-beef/#recipe",
-    "ingredients": [
-      "500g minced beef",
-      "3 garlic cloves, minced",
-      "¼ cup brown sugar",
-      "¼ cup soy sauce",
-      "2cm ginger",
-      "1 tbsp gochujang"
-    ],
-    "method": [
-      "Melt 1 tbsp butter in pan, add garlic and stir fry until fragrant",
-      "Add minced beef and cook until browned",
-      "In a separate cup mix together brown sugar, soy sauce, and gochujang",
-      "Add sauce and ginger to beef, and stir until coated. Serve with rice"
-    ],
-    "notes": [
-      "Serve with boiled broccoli - 2 broccoli for a week's worth"
-    ],
-    "image": "./src/recipes/korean_beef.jpg"
-  },
-  {
-    "slug": "jollof-rice",
-    "title": "Jollof Rice",
-    "link": "https://www.the-girl-who-ate-everything.com/cheater-korean-beef/#recipe",
-    "ingredients": [
-      "500g minced beef",
-      "3 garlic cloves, minced",
-      "¼ cup brown sugar",
-      "¼ cup soy sauce",
-      "2cm ginger",
-      "1 tbsp gochujang"
-    ],
-    "method": [
-      "Melt 1 tbsp butter in pan, add garlic and stir fry until fragrant",
-      "Add minced beef and cook until browned",
-      "In a separate cup mix together brown sugar, soy sauce, and gochujang",
-      "Add sauce and ginger to beef, and stir until coated. Serve with rice"
-    ],
-    "notes": [
-      "Serve with boiled broccoli - 2 broccoli for a week's worth"
-    ],
-    "image": "./src/recipes/korean_beef.jpg"
-  },
-  {
-    "slug": "garlic-chicken",
-    "title": "One Pot Garlic Chicken",
-    "link": "https://www.the-girl-who-ate-everything.com/cheater-korean-beef/#recipe",
-    "ingredients": [
-      "500g minced beef",
-      "3 garlic cloves, minced",
-      "¼ cup brown sugar",
-      "¼ cup soy sauce",
-      "2cm ginger",
-      "1 tbsp gochujang"
-    ],
-    "method": [
-      "Melt 1 tbsp butter in pan, add garlic and stir fry until fragrant",
-      "Add minced beef and cook until browned",
-      "In a separate cup mix together brown sugar, soy sauce, and gochujang",
-      "Add sauce and ginger to beef, and stir until coated. Serve with rice"
-    ],
-    "notes": [
-      "Serve with boiled broccoli - 2 broccoli for a week's worth"
-    ],
-    "image": "./src/recipes/korean_beef.jpg"
-  },
-  {
-    "slug": "oven-baked-pork-chops",
-    "title": "Oven Baked Pork Chops",
-    "link": "https://www.the-girl-who-ate-everything.com/cheater-korean-beef/#recipe",
-    "ingredients": [
-      "500g minced beef",
-      "3 garlic cloves, minced",
-      "¼ cup brown sugar",
-      "¼ cup soy sauce",
-      "2cm ginger",
-      "1 tbsp gochujang"
-    ],
-    "method": [
-      "Melt 1 tbsp butter in pan, add garlic and stir fry until fragrant",
-      "Add minced beef and cook until browned",
-      "In a separate cup mix together brown sugar, soy sauce, and gochujang",
-      "Add sauce and ginger to beef, and stir until coated. Serve with rice"
-    ],
-    "notes": [
-      "Serve with boiled broccoli - 2 broccoli for a week's worth"
-    ],
-    "image": "./src/recipes/korean_beef.jpg"
-  },
-  {
-    "slug": "matcha-shokupan",
-    "title": "Matcha Shokupan",
-    "link": "https://www.the-girl-who-ate-everything.com/cheater-korean-beef/#recipe",
-    "ingredients": [
-      "500g minced beef",
-      "3 garlic cloves, minced",
-      "¼ cup brown sugar",
-      "¼ cup soy sauce",
-      "2cm ginger",
-      "1 tbsp gochujang"
-    ],
-    "method": [
-      "Melt 1 tbsp butter in pan, add garlic and stir fry until fragrant",
-      "Add minced beef and cook until browned",
-      "In a separate cup mix together brown sugar, soy sauce, and gochujang",
-      "Add sauce and ginger to beef, and stir until coated. Serve with rice"
-    ],
-    "notes": [
-      "Serve with boiled broccoli - 2 broccoli for a week's worth"
-    ],
-    "image": "./src/recipes/korean_beef.jpg"
-  },
-  {
-    "slug": "oven-baked-chicken-thighs",
-    "title": "Oven Baked Chicken Thighs",
-    "link": "https://www.the-girl-who-ate-everything.com/cheater-korean-beef/#recipe",
-    "ingredients": [
-      "500g minced beef",
-      "3 garlic cloves, minced",
-      "¼ cup brown sugar",
-      "¼ cup soy sauce",
-      "2cm ginger",
-      "1 tbsp gochujang"
-    ],
-    "method": [
-      "Melt 1 tbsp butter in pan, add garlic and stir fry until fragrant",
-      "Add minced beef and cook until browned",
-      "In a separate cup mix together brown sugar, soy sauce, and gochujang",
-      "Add sauce and ginger to beef, and stir until coated. Serve with rice"
-    ],
-    "notes": [
-      "Serve with boiled broccoli - 2 broccoli for a week's worth"
-    ],
-    "image": "./src/recipes/korean_beef.jpg"
-  },
-  {
-    "slug": "air-fryer-doughnuts",
-    "title": "Air Fryer Doughnuts",
-    "link": "https://www.the-girl-who-ate-everything.com/cheater-korean-beef/#recipe",
-    "ingredients": [
-      "500g minced beef",
-      "3 garlic cloves, minced",
-      "¼ cup brown sugar",
-      "¼ cup soy sauce",
-      "2cm ginger",
-      "1 tbsp gochujang"
-    ],
-    "method": [
-      "Melt 1 tbsp butter in pan, add garlic and stir fry until fragrant",
-      "Add minced beef and cook until browned",
-      "In a separate cup mix together brown sugar, soy sauce, and gochujang",
-      "Add sauce and ginger to beef, and stir until coated. Serve with rice"
-    ],
-    "notes": [
-      "Serve with boiled broccoli - 2 broccoli for a week's worth"
-    ],
-    "image": "./src/recipes/korean_beef.jpg"
+  "slug": "hawaiian-butter-mochi",
+  "title": "Classic Hawaii Butter Mochi Recipe",
+  "link": "https://www.mochimommy.com/hawaiian-butter-mochi/",
+  "ingredients": [
+    "16 oz box mochiko (or 454g glutinous rice flour)",
+    "400g sugar",
+    "1.5 tsp salt",
+    "1 tbsp baking powder",
+    "400g coconut milk",
+    "340g can evaporated milk",
+    "1 tsp vanilla extract, optional",
+    "2 eggs",
+    "113g melted butter",
+    "50g shredded coconut, optional"
+  ],
+  "method": [
+    "Preheat oven to 176C (350F).",
+    "Mix dry ingredients (mochiko, sugar, salt, baking powder).",
+    "Add in wet ingredients (coconut milk, evaporated milk, melted butter, eggs, extract) and mix until well combined.",
+    "Scrape down the sides of the bowl to check for any lumps of mochiko that did not get incorporated.",
+    "Pour into a greased 9x13\" (22x33cm) baking pan, sprinkle shredded coconut on top (if using).",
+    "Bake for an hour, or until a golden brown crust has formed on top and the middle is set. (If using a metal pan, check at 45 minutes).",
+    "Let cool and slice into rectangles"
+  ],
+  "notes": [
+    "Leftovers can keep in an airtight container at room temperature for a few days.",
+    "You can freeze individual pieces and defrost at room temperature or reheat in the microwave.",
+    "Do not substitute other rice flours for Mochiko; the texture will be different."
+  ],
+  "image": "./src/recipes/hawaiian_butter_mochi.jpg"
   }
 ]
