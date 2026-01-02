@@ -17,6 +17,7 @@ symbol,label,category
 τ,Tau,Greek
 λ,Lambda,Greek
 Λ,LAMBDA,Greek
+Σ,SIGMA,Greek
 
 ±,Plus Minus,Maths
 π,Pi,Maths
@@ -39,7 +40,7 @@ symbol,label,category
 ∩,Intersection,Maths
 ∪,Union,Maths
 x̂,X hat,Maths
-ℝ,Real numbers, Maths
+ℝ,Real numbers,Maths
 
 ∯,Closed Surface Integral,Electromagnetism
 ∮,Contour Integral,Electromagnetism
