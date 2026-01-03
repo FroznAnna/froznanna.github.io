@@ -53,7 +53,7 @@
   },
   {
     "slug": "lemon-chicken",
-    "title": "Crispy Sesame Lemon Chicken",
+    "title": "Crispy Lemon Chicken",
     "link": "https://www.bbcgoodfood.com/recipes/crispy-sesame-lemon-chicken",
     "ingredients": [
       "600g chicken breast fillets, cut into 2cm pieces",
@@ -148,7 +148,7 @@
   },
   {
     "slug": "jollof-rice",
-    "title": "Chef John's Jollof Rice",
+    "title": "Jollof Rice",
     "link": "https://www.allrecipes.com/chef-johns-jollof-rice-recipe-7499757",
     "ingredients": [
       "Chicken thighs (bone-in or boneless)",
@@ -207,7 +207,7 @@
   },
   {
     "slug": "baked-pork-chops",
-    "title": "Oven Baked Pork Chops",
+    "title": "Oven Pork Chops",
     "link": "https://www.recipetineats.com/oven-baked-pork-chops-with-potatoes/",
     "ingredients": [
       "4 pork chops (200-250g each)",
@@ -265,7 +265,7 @@
   },
   {
     "slug": "oven-baked-chicken-thighs",
-    "title": "Baked Chicken Thighs",
+    "title": "Oven Chicken Thighs",
     "link": "https://www.jocooks.com/recipes/oven-baked-chicken-thighs/",
     "ingredients": [
       "2 lb chicken thighs (bone-in, skin-on)",
@@ -321,7 +321,7 @@
   },
   {
     "slug": "crispy-pork-belly",
-    "title": "Chinese Crispy Pork Belly (Siu Yuk)",
+    "title": "Crispy Pork Belly (Siu Yuk)",
     "link": "https://kwokspots.com/crispy-pork-belly/",
     "ingredients": [
       "1kg pork belly (skin-on)",
@@ -378,7 +378,7 @@
   },
   {
   "slug": "hawaiian-butter-mochi",
-  "title": "Classic Hawaii Butter Mochi Recipe",
+  "title": "Hawaii Butter Mochi",
   "link": "https://www.mochimommy.com/hawaiian-butter-mochi/",
   "ingredients": [
     "16 oz box mochiko (or 454g glutinous rice flour)",
@@ -404,7 +404,7 @@
   "notes": [
     "Leftovers can keep in an airtight container at room temperature for a few days.",
     "You can freeze individual pieces and defrost at room temperature or reheat in the microwave.",
-    "Do not substitute other rice flours for Mochiko; the texture will be different."
+    "You can use glutinous rice flour instead of Mochiko"
   ],
   "image": "./src/recipes/hawaiian_butter_mochi.jpg"
   }
