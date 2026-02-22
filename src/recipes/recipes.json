@@ -289,5 +289,61 @@
       "Serve with boiled broccoli - 2 broccoli for a week's worth"
     ],
     "image": "./src/recipes/korean_beef.jpg"
-  }
+  },
+  {
+    "slug": "cream-corn-chicken",
+    "title": "Cream Corn Chicken",
+    "link": "https://www.ohmyfoodrecipes.com/cream-corn-chicken-rice/#recipe",
+    "ingredients": [
+      "2 cans of cream corn",
+      "1kg chicken thighs, boneless, skinless",
+      "Thickening granules (or cornstarch slurry)",
+      "Salt, to taste",
+      "Garlic powder, to taste",
+      "½ can of water (using the cream corn can)"
+    ],
+    "method": [
+      "Cut chicken thighs into small cubes.",
+      "Season the cubed chicken with salt and garlic powder. Leave for 15 minutes.",
+      "Fry the chicken until golden brown.",
+      "Decrease the heat and add in the 2 cans of cream corn plus half a can of water (using one of the corn cans to measure).",
+      "Increase heat until the mixture comes to a boil.",
+      "Stir in thickening granules (or your preferred thickener) until the sauce reaches the desired consistency."
+    ],
+    "notes": [
+      "Serve with rice."
+    ],
+    "image": "./src/recipes/creamy_chicken_corn.jpg"
+  },
+  {
+  "slug": "lasagne",
+  "title": "Lasagne",
+  "link": "https://realfood.tesco.com/recipes/simple-lasagne.html",
+  "ingredients": [
+    "1 tbsp olive oil",
+    "2 garlic cloves, finely sliced",
+    "1kg beef mince",
+    "2x400g tin chopped tomatoes",
+    "800ml beef stock",
+    "9-12 lasagne sheets (depending on the size of your baking dish)",
+    "100g butter (white sauce)",
+    "100g plain flour (white sauce)",
+    "1.1L semi-skimmed milk (white sauce)"
+  ],
+  "method": [
+    "In a large pan, heat the olive oil over a low heat. Fry chopped garlic until softened.",
+    "Add the mince and fry on a medium heat until golden.",
+    "Stir in chopped tomatoes and stock. Simmer for 15 mins, or until the liquid has reduced.",
+    "Meanwhile, make the white sauce. Melt the butter in a small saucepan over a low heat and add the flour. Whisk until combined and cook on low for 1-2 mins.",
+    "Remove from the heat and gradually whisk in the milk until you have a loose sauce. Season. Return to a gentle heat and whisk constantly until the sauce thickens.",
+    "Preheat the oven to gas 6, 200°C, fan 180°C.",
+    "Layer up the lasagne in a baking dish, starting with a third each of the meat, then the pasta, then the white sauce. Repeat twice.",
+    "Bake in the oven for 40-45 mins, until piping hot and crisp and bubbling on top. Serve immediately."
+  ],
+  "notes": [
+    "Budget swap: Use frozen beef and pork mince mix instead of fresh mince.",
+    "Freezing: Once cooled, freeze in an airtight container for 1-3 months. Defrost in fridge overnight before reheating until piping hot."
+  ],
+  "image": "./src/recipes/lasagne.jpg"
+}
 ]
