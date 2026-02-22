@@ -16,6 +16,8 @@ symbol,label,category
 ∇,Nabla,Greek
 τ,Tau,Greek
 λ,Lambda,Greek
+Λ,LAMBDA,Greek
+Σ,SIGMA,Greek
 
 ±,Plus Minus,Maths
 π,Pi,Maths
@@ -33,6 +35,14 @@ symbol,label,category
 ≡,Identity,Maths
 ×,Multiply,Maths
 ⋅,Dot Product,Maths
+∀,For All,Maths
+∈,Element of,Maths
+∩,Intersection,Maths
+∪,Union,Maths
+x̂,X hat,Maths
+ℝ,Real numbers,Maths
+≥,Greater than equal to,Maths
+≤,Less than equal to,Maths
 
 ∯,Closed Surface Integral,Electromagnetism
 ∮,Contour Integral,Electromagnetism
