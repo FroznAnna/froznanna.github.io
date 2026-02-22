@@ -27,6 +27,8 @@ document.addEventListener('DOMContentLoaded', () => {
             .then(response => response.json())
             .then(data => {
                 document.getElementById('header').textContent = "Recipes";
+                // Sort list alphabetically
+                data.sort((a, b) => a.title.localeCompare(b.title));
                 data.forEach(recipe => {
                     let button = document.createElement('button');
                     button.className = "recipeBtn"; 
