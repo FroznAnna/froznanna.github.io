@@ -14,5 +14,8 @@
   { "title": "Pork Belly Sandwiches", "slug": "pork-belly-sandwiches" },
   { "title": "Cream Corn Chicken", "slug": "cream-corn-chicken" },
   { "title": "Lasagne", "slug": "lasagne" },
-  { "title": "Hawaii Butter Mochi", "slug": "hawaiian-butter-mochi" }
+  { "title": "Hawaii Butter Mochi", "slug": "hawaiian-butter-mochi" },
+  { "title": "Bread Ahead Doughnuts", "slug": "breadahead-doughnuts" },
+  { "title": "Bread Ahead Creme Patissiere Filling", "slug": "creme-filling" },
+  { "title": "Bread Ahead Jam Filling", "slug": "jam-filling" }
 ]
