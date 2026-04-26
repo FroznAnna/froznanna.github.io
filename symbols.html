@@ -161,7 +161,7 @@ fetch('https://froznanna.github.io/src/symbols.csv')
     items.sort((a,b) => a.category.localeCompare(b.category) || a.symbol.localeCompare(b.symbol));
 
     items.forEach(sym => {
-        let {symbol, label, category} = item;
+        let {symbol, label, category} = sym;
 
         let categoryElement = document.getElementById(category);
 
