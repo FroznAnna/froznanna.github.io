@@ -151,6 +151,9 @@ fetch('https://froznanna.github.io/src/symbols.csv')
     .then(text => {
     let symbols = text.split("\n").filter(line => line.trim() !== ""); //.filter removes empty lines
     symbols.shift(); //Removes the header row
+    
+    //Sort alphabetically
+    symbols = symbols.sort();
 
     symbols.forEach(sym => {
         let [symbol, label, category] = sym.split(",");
