@@ -158,7 +158,7 @@ fetch('https://froznanna.github.io/src/symbols.csv')
         return { symbol, label, category };
     });
 
-    items.sort((a,b) => a.category.localeCompare(b.category) || a.symbol.localeCompare(b.symbol));
+    items.sort((a,b) => a.category.localeCompare(b.category) || a.label.localeCompare(b.label));
 
     items.forEach(sym => {
         let {symbol, label, category} = sym;
