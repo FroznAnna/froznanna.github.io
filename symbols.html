@@ -153,10 +153,15 @@ fetch('https://froznanna.github.io/src/symbols.csv')
     symbols.shift(); //Removes the header row
     
     //Sort alphabetically
-    symbols = symbols.sort();
+    let items = symbols.map(line => {
+        let [symbol, label, category] = line.split(",");
+        return { symbol, label, category };
+    });
 
-    symbols.forEach(sym => {
-        let [symbol, label, category] = sym.split(",");
+    symbols.sort((a,b) => a.category.localeCompare(b.category) || a.symbol.localeCompare(b.symbol));
+
+    items.forEach(sym => {
+        let {symbol, label, category} = item;
 
         let categoryElement = document.getElementById(category);
 
@@ -174,7 +179,8 @@ fetch('https://froznanna.github.io/src/symbols.csv')
         button.textContent = symbol;
         button.addEventListener('click', () => copy(symbol, label));
 
-        categoryElement.insertAdjacentElement('afterend', button);
+        //categoryElement.insertAdjacentElement('afterend', button);
+        document.body.appendChild(button); //Change to this to preserve order of sorting.
     })
 });
 
